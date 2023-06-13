@@ -9,7 +9,7 @@
 public static WadList LoadedFiles
 ```
 Collection of Wad objects that are loaded.
-You can index this list by WADs path eg. `LoadedFiles["DOOM2.WAD"]` to get a Wad object of DOOM2.WAD if it's loaded.
+You can index this list by WADs path eg. `LoadedFiles["DOOM2.WAD"]` to get a Wad object of DOOM2.WAD if it's loaded. Otherwise, it returns null.
 
 #### DisableWadTypeCheck
 ```cs
